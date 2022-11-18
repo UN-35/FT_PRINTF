@@ -47,7 +47,7 @@ int	ft_printf(const char *str, ...)
 		if (str[i] == '%')
 		{
 			i++;
-			if (str[i] = '\0')
+			if (str[i] == '\0')
 				break ;
 			run_it(str[i], a, &count);
 		}
